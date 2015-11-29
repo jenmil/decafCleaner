@@ -1,0 +1,174 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/navStyle.css"/>
+	<link rel="stylesheet" type="text/css" href="css/form.css"/>
+
+	<title>Solutions Registration</title>
+</head>
+<body>
+<!--	<div id="container">   -->
+	<div id="header">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a>
+					<ul>
+						<li><a href="about/eli.html">Eli Collis</a></li>
+						.<li><a href="about/jen.html">Jennifer Milharcic</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="title">
+			<h1><i>Solutions</i> as a Service</h1>
+		</div>		
+	</div>
+	<form action="" method="get">
+		<p class="regTitle"> Solutions &copy; Registration Form</p>
+		<p class="regTitle" style="font-size:20px;">Welcome!! By giving us the information below, we can start your profile and expedite the process. All information will be kept confidential. 
+		<section class="collection">
+			<p class"explain"> <h3 style="text-align:left;">Please Select a Username and Password: </h3> </p>
+			<p>Username: <input type="text" name="user"></p>
+			<p>Password: <input type="password" name="pwd"></p>
+			<p>Please re-enter  password: <input type="password" name="pwd"></p>
+			<p>Email: <input type="text" name="email"></p>
+			<p><h3 style="text-align:left;"> Tell us about your software needs: </h3></p>
+			<textarea rows="5" cols="28" ></textarea>
+		</section>
+
+		<section class="collection">
+			<p><h3 style="text-align:center;">Company Information</h3></p>
+			<p >
+				Company Name: <input type="text" name="compName">
+			</p>
+			<p> 
+				First Name: <input type="text" name="firstName"> 
+			</p>
+			<p>
+				Last Name: <input type="text" name="lastName">
+			</p>  
+			<p>  
+				Address: <input type="text" name="addressLine1">
+			</p>
+		
+			<p>  
+				Address Line 2: <input type="text" name="addressLine2"> 
+			</p>
+			<p> 
+				Country: <input type="text" name="country">
+			</p>
+			<p> 
+				State/Province: <input type="text" name="stateProvince">
+			</p>
+			<p> 
+				City/Town/Village: <input type="text" name="city">
+			</p>
+			<p>
+				Zipe code: <input type="text" name="zip" max="4">
+			</p>
+		</section>
+
+		<article class="info">
+			<p class"explain"> <h3> Have you ever used a Software as a Service (Saas) site before:</h3></p>
+				<input type="radio" name="usedBefore" value="yes"> Yes <br>
+				<input type="radio" name="usedBefore" value="no"> No <br>
+				<br>
+			<br>
+			<p class"explain"><h3>How did you find Solutions &copy;?</h3> <em>(check all that apply) </em></p>
+				<input type="checkbox" name="advertise" value="recommended"> Recommended <br>
+				<input type="radio" name="advertise" value="webSearch"> Web Search Engine <br>
+				<input type="checkbox" name="advertise" value="link"> Link From Another Website <br>
+				<input type="checkbox" name="advertise" value="commercial"> Advertisement on TV or radio <br>
+				<input type="checkbox" name="advertise" value="return"> Returning Client <br>
+				<input type="checkbox" name="advertise" value="other"> Other <br>
+		</article>
+		
+
+	<!--	<section id="checkTable">
+			<table>
+				<thead>
+					<p class="explain"> Please check the boxes that describe your business.<p>
+				</thead>
+				<tbody>
+					<tr>
+						<td> 
+							<input type="checkbox" name="bType" value="accounting">	Accounting <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="administrative/clerical"> Administrative/clerical <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="banking"> Banking <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="businessDev"> Business Development <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="consultant"> Consultant <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="customerSrvc"> Customer Service <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="distribution">Distribution/Shipping <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="finance"> Finance <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="healthcare"> Healthcare <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="hospitality"> Hospitality <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="infoTech"> Information Technology <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="legal"> Legal <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="management"> Management <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="media"> media <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="pharm"> Pharmaceutical <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="purchase"> Purchasing <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="bType" value="research"> Research <br>
+						</td>
+						<td>
+							<input type="checkbox" name="bType" value="sales"> Sales <br>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section> -->
+	</form> 
+</body>
+</html>
